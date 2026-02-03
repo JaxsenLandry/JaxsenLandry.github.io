@@ -1,3 +1,23 @@
 selector {
   background-color:navy
 }
+
+.box {
+    /* Dimensions */
+    width: 200px;
+    height: 150px;
+
+    /* Appearance */
+    background-color: #3498db; /* A nice blue color */
+    color: white; /* Text color */
+    border: 2px solid #2980b9; /* A solid border */
+    border-radius: 5px; /* Rounded corners */
+    
+    /* Spacing and Alignment */
+    padding: 20px; /* Space between content and border */
+    margin: 20px auto; /* Space outside the border and centers the box horizontally */
+    text-align: center; /* Centers the text inside the box */
+
+    /* A modern best practice to ensure width/height includes padding and border */
+    box-sizing: border-box; 
+}
